@@ -3,27 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		31797B08253B8D330055E03B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31797B07253B8D330055E03B /* AppDelegate.swift */; };
 		31797B0A253B8D330055E03B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31797B09253B8D330055E03B /* SceneDelegate.swift */; };
-		31797B0C253B8D330055E03B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31797B0B253B8D330055E03B /* ViewController.swift */; };
+		31797B0C253B8D330055E03B /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31797B0B253B8D330055E03B /* SignInVC.swift */; };
 		31797B0F253B8D330055E03B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31797B0D253B8D330055E03B /* Main.storyboard */; };
 		31797B11253B8D360055E03B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31797B10253B8D360055E03B /* Assets.xcassets */; };
 		31797B14253B8D360055E03B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31797B12253B8D360055E03B /* LaunchScreen.storyboard */; };
+		31797B1C253B8D540055E03B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 31797B1B253B8D530055E03B /* GoogleService-Info.plist */; };
+		31797B1E253B96E20055E03B /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31797B1D253B96E20055E03B /* FeedVC.swift */; };
+		31797B20253B97040055E03B /* UploadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31797B1F253B97040055E03B /* UploadVC.swift */; };
+		31797B22253B97260055E03B /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31797B21253B97260055E03B /* SettingsVC.swift */; };
+		31797B27253B9A8D0055E03B /* SnapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31797B26253B9A8D0055E03B /* SnapVC.swift */; };
+		31797B2A253CAFA10055E03B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31797B29253CAFA10055E03B /* User.swift */; };
+		31797B2C253CB5F10055E03B /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31797B2B253CB5F10055E03B /* FeedCell.swift */; };
+		31797B2E253CB93B0055E03B /* Snap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31797B2D253CB93B0055E03B /* Snap.swift */; };
+		FDF65DA47C7FF7F97809B70F /* Pods_SnapChatClone_iOS_FireStore_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DDCA265581003CD89D7DED7 /* Pods_SnapChatClone_iOS_FireStore_.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0DDCA265581003CD89D7DED7 /* Pods_SnapChatClone_iOS_FireStore_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapChatClone_iOS_FireStore_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		142088468DBC5834C3291AC6 /* Pods-SnapChatClone(iOS&FireStore).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapChatClone(iOS&FireStore).debug.xcconfig"; path = "Target Support Files/Pods-SnapChatClone(iOS&FireStore)/Pods-SnapChatClone(iOS&FireStore).debug.xcconfig"; sourceTree = "<group>"; };
 		31797B04253B8D330055E03B /* SnapChatClone(iOS&FireStore).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SnapChatClone(iOS&FireStore).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31797B07253B8D330055E03B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31797B09253B8D330055E03B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		31797B0B253B8D330055E03B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		31797B0B253B8D330055E03B /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		31797B0E253B8D330055E03B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		31797B10253B8D360055E03B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31797B13253B8D360055E03B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31797B15253B8D360055E03B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31797B1B253B8D530055E03B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		31797B1D253B96E20055E03B /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		31797B1F253B97040055E03B /* UploadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadVC.swift; sourceTree = "<group>"; };
+		31797B21253B97260055E03B /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		31797B26253B9A8D0055E03B /* SnapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapVC.swift; sourceTree = "<group>"; };
+		31797B29253CAFA10055E03B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		31797B2B253CB5F10055E03B /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedCell.swift; path = "SnapChatClone(iOS&FireStore)/Views/FeedCell.swift"; sourceTree = SOURCE_ROOT; };
+		31797B2D253CB93B0055E03B /* Snap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snap.swift; sourceTree = "<group>"; };
+		C7DAE12A50F9F341927A29F6 /* Pods-SnapChatClone(iOS&FireStore).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapChatClone(iOS&FireStore).release.xcconfig"; path = "Target Support Files/Pods-SnapChatClone(iOS&FireStore)/Pods-SnapChatClone(iOS&FireStore).release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDF65DA47C7FF7F97809B70F /* Pods_SnapChatClone_iOS_FireStore_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A4EB9C029232543E2264FEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				142088468DBC5834C3291AC6 /* Pods-SnapChatClone(iOS&FireStore).debug.xcconfig */,
+				C7DAE12A50F9F341927A29F6 /* Pods-SnapChatClone(iOS&FireStore).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		31797AFB253B8D330055E03B = {
 			isa = PBXGroup;
 			children = (
 				31797B06253B8D330055E03B /* SnapChatClone(iOS&FireStore) */,
 				31797B05253B8D330055E03B /* Products */,
+				1A4EB9C029232543E2264FEE /* Pods */,
+				9C1F61C18D2E68DAF583358D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +88,63 @@
 		31797B06253B8D330055E03B /* SnapChatClone(iOS&FireStore) */ = {
 			isa = PBXGroup;
 			children = (
-				31797B07253B8D330055E03B /* AppDelegate.swift */,
-				31797B09253B8D330055E03B /* SceneDelegate.swift */,
-				31797B0B253B8D330055E03B /* ViewController.swift */,
-				31797B0D253B8D330055E03B /* Main.storyboard */,
+				31797B28253CAF920055E03B /* Models */,
+				31797B24253B979E0055E03B /* Delegates */,
+				31797B23253B978F0055E03B /* Controllers */,
+				31797B25253B97AF0055E03B /* Views */,
 				31797B10253B8D360055E03B /* Assets.xcassets */,
-				31797B12253B8D360055E03B /* LaunchScreen.storyboard */,
 				31797B15253B8D360055E03B /* Info.plist */,
+				31797B1B253B8D530055E03B /* GoogleService-Info.plist */,
 			);
 			path = "SnapChatClone(iOS&FireStore)";
+			sourceTree = "<group>";
+		};
+		31797B23253B978F0055E03B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				31797B2B253CB5F10055E03B /* FeedCell.swift */,
+				31797B26253B9A8D0055E03B /* SnapVC.swift */,
+				31797B0B253B8D330055E03B /* SignInVC.swift */,
+				31797B21253B97260055E03B /* SettingsVC.swift */,
+				31797B1D253B96E20055E03B /* FeedVC.swift */,
+				31797B1F253B97040055E03B /* UploadVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		31797B24253B979E0055E03B /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				31797B07253B8D330055E03B /* AppDelegate.swift */,
+				31797B09253B8D330055E03B /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		31797B25253B97AF0055E03B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				31797B0D253B8D330055E03B /* Main.storyboard */,
+				31797B12253B8D360055E03B /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		31797B28253CAF920055E03B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				31797B29253CAFA10055E03B /* User.swift */,
+				31797B2D253CB93B0055E03B /* Snap.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9C1F61C18D2E68DAF583358D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DDCA265581003CD89D7DED7 /* Pods_SnapChatClone_iOS_FireStore_.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +154,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31797B18253B8D360055E03B /* Build configuration list for PBXNativeTarget "SnapChatClone(iOS&FireStore)" */;
 			buildPhases = (
+				713AC55BD5B7B2657518270A /* [CP] Check Pods Manifest.lock */,
 				31797B00253B8D330055E03B /* Sources */,
 				31797B01253B8D330055E03B /* Frameworks */,
 				31797B02253B8D330055E03B /* Resources */,
+				C516F1B1CC9FCD8DE5D9982D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31797B14253B8D360055E03B /* LaunchScreen.storyboard in Resources */,
+				31797B1C253B8D540055E03B /* GoogleService-Info.plist in Resources */,
 				31797B11253B8D360055E03B /* Assets.xcassets in Resources */,
 				31797B0F253B8D330055E03B /* Main.storyboard in Resources */,
 			);
@@ -133,14 +216,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		713AC55BD5B7B2657518270A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SnapChatClone(iOS&FireStore)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C516F1B1CC9FCD8DE5D9982D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnapChatClone(iOS&FireStore)/Pods-SnapChatClone(iOS&FireStore)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SnapChatClone(iOS&FireStore)/Pods-SnapChatClone(iOS&FireStore)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SnapChatClone(iOS&FireStore)/Pods-SnapChatClone(iOS&FireStore)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		31797B00253B8D330055E03B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31797B0C253B8D330055E03B /* ViewController.swift in Sources */,
+				31797B1E253B96E20055E03B /* FeedVC.swift in Sources */,
+				31797B2E253CB93B0055E03B /* Snap.swift in Sources */,
+				31797B0C253B8D330055E03B /* SignInVC.swift in Sources */,
 				31797B08253B8D330055E03B /* AppDelegate.swift in Sources */,
+				31797B20253B97040055E03B /* UploadVC.swift in Sources */,
+				31797B2A253CAFA10055E03B /* User.swift in Sources */,
+				31797B27253B9A8D0055E03B /* SnapVC.swift in Sources */,
 				31797B0A253B8D330055E03B /* SceneDelegate.swift in Sources */,
+				31797B22253B97260055E03B /* SettingsVC.swift in Sources */,
+				31797B2C253CB5F10055E03B /* FeedCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +414,7 @@
 		};
 		31797B19253B8D360055E03B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 142088468DBC5834C3291AC6 /* Pods-SnapChatClone(iOS&FireStore).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +433,7 @@
 		};
 		31797B1A253B8D360055E03B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7DAE12A50F9F341927A29F6 /* Pods-SnapChatClone(iOS&FireStore).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
